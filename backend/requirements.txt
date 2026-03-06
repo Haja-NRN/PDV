@@ -6,3 +6,4 @@ skforecast
 lightgbm
 sklearn
 gunicorn
+openpyxl
