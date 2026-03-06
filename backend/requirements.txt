@@ -1,0 +1,8 @@
+flask
+flask_cors
+pandas
+numpy
+skforecast
+lightgbm
+sklearn
+gunicorn
