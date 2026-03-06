@@ -141,4 +141,8 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    import os
+    # Récupère le port de Render, sinon 5000 par défaut
+    port = int(os.environ.get("PORT", 5000))
+    # host='0.0.0.0' est obligatoire pour que le serveur soit accessible de l'extérieur
+    app.run(host='0.0.0.0', port=port)
