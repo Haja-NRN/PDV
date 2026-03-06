@@ -4,6 +4,6 @@ pandas
 numpy
 skforecast
 lightgbm
-sklearn
+scikit-learn
 gunicorn
 openpyxl
